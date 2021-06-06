@@ -5,6 +5,8 @@ library(xts)
 library(rgdal)
 library(shinyWidgets)
 library(shinythemes)
+library(tidyverse)
+library(countrycode)
 load("data/map.RData")
 temp_countryF_3 <- readRDS("data/temperature.rds")
 
